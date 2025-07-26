@@ -1,4 +1,4 @@
-.one{
+/* .one{
     background-color: red;
 }
 .two{
@@ -28,3 +28,55 @@
     margin: 10px;
 }
 
+ */
+.one {
+    background-color: red;
+}
+.two {
+    background-color: blue;
+}
+.three {
+    background-color: yellow;
+}
+.four {
+    background-color: purple;
+}
+* {
+    text-align: center;
+}
+.bigbox {
+    display: flex;
+    justify-content: center;
+}
+.white {
+    background-color: white;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border: 8px solid black;
+    border-radius: 15%;
+    margin: 10px;
+}
+#startButton {
+    background-color: #4CAF50; /* Green to stand out but complement the game colors */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: 8px solid black; /* Matches .box border */
+    border-radius: 20px; /* Improved for a softer, modern look */
+    margin: 20px auto; /* Centered with spacing */
+    display: block; /* Ensures centering with margin: auto */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+#startButton:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+@media (max-width: 600px) {
+    #startButton {
+        padding: 10px 20px; /* Smaller padding for mobile */
+        font-size: 16px; /* Slightly smaller font for mobile */
+    }
+}
