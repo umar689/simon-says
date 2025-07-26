@@ -1,0 +1,30 @@
+.one{
+    background-color: red;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: yellow;
+}
+.four{
+    background-color: purple;
+}
+*{
+    text-align: center;
+}
+.bigbox{
+    display: flex;
+    justify-content: center;
+}
+.white{
+    background-color: white;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 8px solid black ;
+    border-radius: 15%;
+    margin: 10px;
+}
+
